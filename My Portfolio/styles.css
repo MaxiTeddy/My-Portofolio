@@ -1,0 +1,402 @@
+body{
+	font-family: 'Rubik', sans-serif;
+	background: #000;
+	color: white;
+}
+
+.container{
+	background: hsl(226, 43%, 10%);
+	margin: -10px 20px;
+}
+
+span{
+	color: greenyellow;
+}
+
+.profile{
+	padding: 20px;
+	text-align: center;
+}
+
+ h2{
+	font-size: 30px;
+	color: greenyellow;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 18px
+}
+
+.profile p{
+	font-size: 20px;
+	color: wheat;
+}
+
+.profile-img{
+	background-image: url(/images/image-header-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: greenyellow;
+    background-blend-mode: luminosity;
+    width: inherit;
+    height: 316px;
+    border-radius: 0 0 13px 13px;
+}
+
+.img img{
+	border-radius: 50%;
+	border: 5px solid greenyellow;
+}
+
+.about{
+	text-align: center;
+	padding: 0px 20px;
+	background: white;
+	color: hsl(208, 25%, 38%);
+}
+
+h3, h4{
+	font-size: 25px;
+	line-height: 10px;
+	color: black;
+}
+
+.about p{
+	padding: 0 20px;
+	line-height: 25px;
+	font-size: 18px;
+}
+
+.button{
+	width: 150px;
+	height: 60px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border-radius: 20px;
+	border: 0;
+	background: greenyellow;
+	font-size: 18px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+
+.button:hover{
+	background: gray;
+	color: greenyellow;
+	border: 3px solid greenyellow;
+}
+
+.education{
+	margin-top: 20px;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.p{
+	font-size: 15px;
+	margin-top: -40px;
+	color: wheat;
+}
+
+.sch-details h3{
+	color: black;
+	line-height: 30px;
+}
+
+.sch-details p{
+	color: gray;
+	margin-top: -10px;
+	margin-bottom: 30px
+}
+
+.sch-details h5{
+	color: hsl(208, 25%, 38%);
+}
+
+.sch-1{
+	background: greenyellow;
+	height: 200px;
+	border-radius: 20px;
+	padding: 19px;
+	margin: 20px 0;
+}
+
+.sch-2{
+	background: greenyellow;
+	height: 200px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	padding: 10px
+}
+
+.project{
+	background: gray;
+	text-align: center;
+}
+
+.experience{
+	background: greenyellow;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: -20px;
+}
+
+.experience .p{
+	color: gray;
+	padding: 0 40px;
+	font-size: 15px;
+
+}
+
+.experience h2{
+	color: black;
+}
+
+.experience h3{
+	color: white
+}
+
+#one{
+	margin: 20px;
+	height: 100px;
+	padding-top: 20px;
+
+}
+
+.one{
+	background: hsl(264, 64%, 52%);
+}
+
+.two{
+	background: hsl(145, 58%, 55%);
+}
+
+.three{
+	background: hsl(348, 100%, 68%);
+}
+
+.four{
+	background: hsl(195, 74%, 62%);
+}
+
+.five{
+	background: hsl(43, 84%, 65%);
+}
+
+.six{
+	background: hsl(15, 100%, 70%);
+}
+
+.contact{
+	background: white;
+	margin-top: -20px;
+	padding-top: 10px;
+	padding-bottom: 20px
+}
+
+.contact .p{
+	text-align: center;
+	color: black;
+	margin-top: -40px
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 40px;
+	margin: 10px 20px;
+	border-radius: 18px;
+	color: white;
+	font-size: 20px;
+}
+
+a:hover{
+	width: inherit;
+	margin: 0px;
+	color: greenyellow;
+	border-radius: 0;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+#oned{
+	background: #4267b2;
+}
+
+#two{
+	background: linear-gradient(#5851d8, #e1306c);
+}
+
+#three{
+	background: #1da1f2
+}
+
+#four{
+	background: linear-gradient(#db4437, #fdd);
+	background-position: 
+}
+
+#five{
+	background: #25d366;
+}
+
+@media only screen and (min-width: 900px){
+	body{
+		background: hsl(226, 43%, 10%);
+		margin: 50px;
+	}
+
+	.head-container{
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.profile-img{
+	background-image: url(/images/image-header-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: greenyellow;
+    background-blend-mode: luminosity;
+	}
+
+	.about{
+		background: inherit;
+	}
+
+	.others{
+		display: flex;
+		justify-content: space-evenly;
+		background: wheat;
+		border-radius: 15px;
+	}
+
+	h2{
+		font-size: 40px;
+		margin-top: 70px;
+		color: greenyellow;
+	}	
+
+	.writeup{
+		background: wheat;
+		width: 33%;
+		height: 450px;
+		border-radius: 15px;
+	}
+
+	.writeup h3{
+		font-size: 40px;
+	}
+
+	.writeup h4{
+		font-size: 30px;
+		color: white;
+	}
+
+	.img{
+		margin-top: 50px;
+	}
+
+	.education-others{
+		display: block;
+	}
+
+	.sch-1, .sch-2{
+		height: 350px;
+		display: flex;
+		background: inherit;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.sch-1 .sch-image{
+		background-image: url(/images/gstc.jpg);
+   	    background-size: contain;
+        background-repeat: no-repeat;
+		width: 40%;
+		height: 350px;
+	}
+
+	.sch-2 .sch-image{
+		background-image: url(/images/isma.jpg);
+		 background-size: contain;
+        background-repeat: no-repeat;
+		width: 40%;
+		height: 350px;
+	}
+
+	.sch-details h3{
+		font-size: 35px;
+		line-height: 50px;
+		height: 200px;
+		margin-top: 40px;
+		color: white;
+	}
+
+	.sch-details p{
+		font-size: 25px;
+		margin-top: -70px;
+		color: wheat;
+	}
+
+	.sch-details h5{
+		font-size: 30px;
+		color: greenyellow;
+	}
+
+	.experience{
+		background: inherit;
+	}
+
+	.experience h2{
+		color: greenyellow;
+	}
+
+	.experience .p{
+		color: wheat;
+	}
+
+	.experience-others{
+		display: grid;
+		justify-content: space-evenly;
+		grid-template-rows: 200px 200px 200px;
+		grid-template-columns: 300px 300px 300px;
+		column-gap: 100px;
+		row-gap: 80px;
+	}
+
+	#one{
+		width: 250px;
+		height: 200px;
+		border-radius: 15px;
+		margin-top: 67px;
+		line-height: 30px;
+	}
+
+	#one h3{
+		margin-top: 60px;
+		line-height: 30px;
+	}
+
+	.contact h2{
+		margin-top: -70px;
+	}
+
+	.contact .p{
+		color: wheat;
+	}
+
+	.contact-links{
+		display: flex;
+		margin-top: 50px;
+	}
+
+	.contact{
+		background: inherit;
+	}
+
+	#oned, #two, #three, #four, #five{
+		background: inherit;
+	}
+
+}
