@@ -7,14 +7,14 @@ body{
 .head{
 	background: gray;
 	height: 50px;
-	border-bottom: 2px solid greenyellow;
+	border-bottom: 2px solid hsl(263, 55%, 52%);
 }
 
 header{
 	font-size: 25px;
 	padding-top: 12px;
 	padding-left: 30px;
-	color: greenyellow;
+	color: hsl(263, 55%, 52%);
 }	
 
 .container{
@@ -22,12 +22,9 @@ header{
 	margin: -10px 20px;
 }
 
-#welcome{
-	color: greenyellow;
-}
-
 span{
-	color: greenyellow;
+	color: hsl(263, 55%, 52%)
+;
 }
 
 .profile{
@@ -37,7 +34,7 @@ span{
 
  h2{
 	font-size: 30px;
-	color: greenyellow;
+	color: hsl(263, 55%, 52%);
 	text-align: center;
 	margin-top: 20px;
 	padding: 20px;
@@ -53,7 +50,8 @@ span{
 	background-image: url(/images/user.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: greenyellow;
+    background-color: hsl(263, 55%, 52%)
+;
     background-blend-mode: luminosity;
     width: inherit;
     height: 346px;
@@ -66,7 +64,8 @@ span{
 
 .img img{
 	border-radius: 50%;
-	border: 5px solid greenyellow;
+	border: 5px solid hsl(263, 55%, 52%)
+;
 	width: 300px;
 }
 
@@ -89,10 +88,6 @@ h3, h4{
 	overflow: hidden;
 }
 
-.writeup::-webkit-scrollbar{
-  display: none;
-}
-
 .button{
 	width: 150px;
 	height: 60px;
@@ -100,7 +95,8 @@ h3, h4{
 	margin-top: 10px;
 	border-radius: 20px;
 	border: 0;
-	background: greenyellow;
+	background: hsl(263, 55%, 52%)
+;
 	font-size: 18px;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
@@ -108,8 +104,10 @@ h3, h4{
 
 .button:hover{
 	background: gray;
-	color: greenyellow;
-	border: 3px solid greenyellow;
+	color: hsl(263, 55%, 52%)
+;
+	border: 3px solid hsl(263, 55%, 52%)
+;
 }
 
 .education{
@@ -140,7 +138,8 @@ h3, h4{
 }
 
 .sch-1{
-	background: greenyellow;
+	background: hsl(263, 55%, 52%)
+;
 	height: 200px;
 	border-radius: 20px;
 	padding: 19px;
@@ -148,7 +147,8 @@ h3, h4{
 }
 
 .sch-2{
-	background: greenyellow;
+	background: hsl(263, 55%, 52%)
+;
 	height: 200px;
 	padding-bottom: 20px;
 	border-radius: 20px;
@@ -162,16 +162,77 @@ h3, h4{
 
 #two{
 	position: relative;
-	background-color: greenyellow;
+	background-color: hsl(263, 55%, 52%)
+;
 }
 
 .project-others{
 	display: grid;
+	position: relative;
 	justify-content: space-evenly;
 	grid-template-rows: 100px 100px 100px 150px;
 	grid-template-columns: 400px 400px 400px;
 	column-gap: 10px;
 	row-gap: 200px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border-radius: 4px;
+  width: 100px;
+  padding: 20px;
+  border-radius: 60px;
+  background-color: hsl(263, 55%, 52%)
+;
+  color: black;
+  margin-left: 150%;
+  cursor: pointer;
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu{
+  list-style-type: none;
+  display: grid;
+  position: relative;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 400px 400px 400px;
+  column-gap: 50px;
+  row-gap: 200px;
+  margin-left: -40px;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: grid;
+  position: relative;
+}
+
+.dd-input:checked + .dd-menu + .experience{
+	display: none;
 }
 
 .image{
@@ -181,7 +242,8 @@ h3, h4{
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  border: 3px solid greenyellow;
+  border: 3px solid hsl(263, 55%, 52%)
+;
   cursor: pointer;
 }
 
@@ -204,33 +266,45 @@ h3, h4{
   opacity: 1;
 }
 
-.text{
-  width: 50px;
-  height: 50px;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.open{
-	background: gray;
-	color: greenyellow;
+.open, .close{
+	background: black;
+	color: hsl(263, 55%, 52%);
 	font-family: 'Rubik', sans-serif;
 	cursor: pointer;
 	width: 80px;
 	height: 40px;
 	border-radius: 7px;
 	border: none;
-	margin-left: -10px;
 	font-size: 20px;
-	box-shadow: 1px 1px 30px 5px greenyellow;
+	font-weight: 500;
+	box-shadow: 1px 1px 30px 5px hsl(263, 55%, 52%);
 	cursor: pointer;
 }
 
-.open:hover{
-	background: greenyellow;
-	color: gray;
-	box-shadow: 1px 1px 5px 5px wheat;
+#describe{
+	margin-bottom: 25px;
+	padding-top: 30px;
+	font-size: 25px;
+	color: white;
+	font-weight: 500;
+}
+
+#drop-eight #describe{
+	padding-top: 10px;
+}
+
+#drop-nine #describe{
+	padding-top: 10px;
+}
+
+.close{
+	margin-left: 100px;
+}
+
+.open:hover, .close:hover{
+	background: hsl(263, 55%, 52%);
+	color: white;
+	box-shadow: 1px 1px 5px 5px white;
 }
 
 .experience{
@@ -293,7 +367,8 @@ a{
 a:hover{
 	width: inherit;
 	margin: 0px;
-	color: greenyellow;
+	color: hsl(263, 55%, 52%)
+;
 	border-radius: 0;
 	font-size: 25px;
 	font-weight: 400;
@@ -330,13 +405,15 @@ a:hover{
 		display: flex;
 		justify-content: space-evenly;
 		margin-right: 50px;
-		margin-top: 100px;
+		margin-top: 170px;
 	}
 
 	.head{
-		background: none;
-		margin-top: -40px;
-		border-bottom: none;
+		background: hsl(263, 55%, 52%);
+		margin: -50px -70px;
+		padding: 10px 0;
+		color: white;
+		font-size: 40px;
 	}
 
 	header{
@@ -345,30 +422,31 @@ a:hover{
 	}
 
 	h1{
-		font-size: 60px;
-		margin-top: 0px;
+		font-size: 80px;
 	}
 
 	.profile{
-		margin-top: 80px;
-		margin-left: -70px;
+		margin-top: 10px;
+		text-align: left;
+		width: 90%;
 	}
 
 	.profile p{
-		font-size: 30px;
+		font-size: 40px;
 		margin-top: 50px;
+		color: hsl(263, 55%, 52%)
+;
 	}
 
 	.profile-img{
 	background-image: url(/images/user.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    width: 60%;
+    height: 600px;
     border-radius: 50%;
-    margin-top: 30px;
-    margin-right: -100px;
-    margin-left: 30px;
+    margin-right: -40px;
+    margin-top: -30px;
 	}
 
 	.about{
@@ -386,7 +464,8 @@ a:hover{
 	h2{
 		font-size: 40px;
 		margin-top: 70px;
-		color: greenyellow;
+		color: hsl(263, 55%, 52%)
+;
 	}	
 
 	.writeup{
@@ -457,11 +536,17 @@ a:hover{
 
 	.sch-details h5{
 		font-size: 30px;
-		color: greenyellow;
+		color: hsl(263, 55%, 52%)
+;
+	}
+
+	.experience{
+		margin-top: -500px;
 	}
 
 	.experience h2{
-		color: greenyellow;
+		color: hsl(263, 55%, 52%)
+;
 	}
 
 	.experience .p{
@@ -490,8 +575,8 @@ a:hover{
 	}
 
 	.first #three:hover{
-		background: greenyellow;
-		color: black;
+		background: hsl(263, 55%, 52%);
+		color: white;
 		width: 170px;
 		font-size: 60px;
 		margin-left: -5px;
@@ -555,12 +640,88 @@ a:hover{
 		margin-top: 40px;
 	}
 
+	.text{
+        width: 403px;
+        height: 170px;
+        color: white;
+        font-size: 16px;
+        background: hsl(263, 55%, 52%);
+        margin-left: 3px;
+    }
+
+    #drop-one{
+    	margin-top: 320px;
+    }
+
+    #drop-two{
+    	margin-top: 320px;
+    }
+
+    #drop-three{
+    	margin-top: 240px;
+    }
+
+    #drop-four{
+    	margin-top: 80px;
+    }
+
+    #drop-five{
+    	margin-top: 120px;
+    }
+
+    #drop-six{
+    	margin-top: 80px;
+    }
+
+    #drop-seven{
+    	margin-top: 60px;
+    }
+
+    #drop-eight{
+    	height: 130px;
+    	margin-top: 70px;
+    }
+
+    #drop-nine{
+    	margin-top: 80px;
+    	height: 150px;
+    }
+
+    #drop-ten{
+    	margin-top: 80px;
+    	height: 150px;
+    }
+
+    #drop-eleven{
+    	margin-top: 80px;
+    	height: 150px;
+    }
+
+    #drop-twelve{
+    	margin-top: 90px;
+    }
+
+    #drop-thirteen{
+    	margin-top: 70px;
+    }
+
+    #drop-fourteen{
+    	margin-top: 80px;
+    	height: 150px;
+    }
+
+    #drop-fifteen{
+    	margin-top: 80px;
+    	height: 150px;
+    }
+
 	footer{
 		text-align: center;
 		font-size: 15px;
 		margin-top: 50px;
 		margin-bottom: -100px;
-		color: greenyellow;
+		color: hsl(263, 55%, 52%)
+;
 	}
 
 	footer h2{
