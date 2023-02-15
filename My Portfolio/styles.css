@@ -7,14 +7,14 @@ body{
 .head{
 	background: gray;
 	height: 50px;
-	border-bottom: 2px solid hsl(263, 55%, 52%);
+	border-bottom: 2px solid orangered;
 }
 
 header{
 	font-size: 25px;
 	padding-top: 12px;
 	padding-left: 30px;
-	color: hsl(263, 55%, 52%);
+	color: orangered;
 }	
 
 .container{
@@ -23,8 +23,7 @@ header{
 }
 
 span{
-	color: hsl(263, 55%, 52%)
-;
+	color: orangered;
 }
 
 .profile{
@@ -34,7 +33,7 @@ span{
 
  h2{
 	font-size: 30px;
-	color: hsl(263, 55%, 52%);
+	color: orangered;
 	text-align: center;
 	margin-top: 20px;
 	padding: 20px;
@@ -50,8 +49,7 @@ span{
 	background-image: url(/images/user.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: hsl(263, 55%, 52%)
-;
+    background-color: orangered;
     background-blend-mode: luminosity;
     width: inherit;
     height: 346px;
@@ -64,8 +62,7 @@ span{
 
 .img img{
 	border-radius: 50%;
-	border: 5px solid hsl(263, 55%, 52%)
-;
+	border: 5px solid black;
 	width: 300px;
 }
 
@@ -89,25 +86,28 @@ h3, h4{
 }
 
 .button{
-	width: 150px;
-	height: 60px;
-	margin-bottom: 20px;
-	margin-top: 10px;
-	border-radius: 20px;
-	border: 0;
-	background: hsl(263, 55%, 52%)
-;
-	font-size: 18px;
-	font-family: 'Rubik', sans-serif;
+	width: 100px;
+	height: 0px;
+	margin: 10px 0px 20px 170px;
+	border-radius: 50px;
+	background: orangered;
 	font-weight: 500;
+}
+
+.button p{
+	margin-top: -16px;
+	margin-left: -12px;
 }
 
 .button:hover{
 	background: gray;
-	color: hsl(263, 55%, 52%)
-;
-	border: 3px solid hsl(263, 55%, 52%)
-;
+	color: orangered;
+	border: 3px solid orangered;
+	width: 100px;
+	height: 0px;
+	margin: 10px 0px 20px 170px;
+	border-radius: 50px;
+	font-weight: 900;
 }
 
 .education{
@@ -138,8 +138,7 @@ h3, h4{
 }
 
 .sch-1{
-	background: hsl(263, 55%, 52%)
-;
+	background: orangered;
 	height: 200px;
 	border-radius: 20px;
 	padding: 19px;
@@ -147,8 +146,7 @@ h3, h4{
 }
 
 .sch-2{
-	background: hsl(263, 55%, 52%)
-;
+	background: orangered;
 	height: 200px;
 	padding-bottom: 20px;
 	border-radius: 20px;
@@ -162,8 +160,7 @@ h3, h4{
 
 #two{
 	position: relative;
-	background-color: hsl(263, 55%, 52%)
-;
+	background-color: orangered;
 }
 
 .project-others{
@@ -187,8 +184,7 @@ h3, h4{
   width: 100px;
   padding: 20px;
   border-radius: 60px;
-  background-color: hsl(263, 55%, 52%)
-;
+  background-color: orangered;
   color: black;
   margin-left: 150%;
   cursor: pointer;
@@ -242,8 +238,7 @@ h3, h4{
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  border: 3px solid hsl(263, 55%, 52%)
-;
+  border: 3px solid orangered;
   cursor: pointer;
 }
 
@@ -268,7 +263,7 @@ h3, h4{
 
 .open, .close{
 	background: black;
-	color: hsl(263, 55%, 52%);
+	color: orangered;
 	font-family: 'Rubik', sans-serif;
 	cursor: pointer;
 	width: 80px;
@@ -277,7 +272,7 @@ h3, h4{
 	border: none;
 	font-size: 20px;
 	font-weight: 500;
-	box-shadow: 1px 1px 30px 5px hsl(263, 55%, 52%);
+	box-shadow: 1px 1px 30px 5px orangered;
 	cursor: pointer;
 }
 
@@ -302,7 +297,7 @@ h3, h4{
 }
 
 .open:hover, .close:hover{
-	background: hsl(263, 55%, 52%);
+	background: orangered;
 	color: white;
 	box-shadow: 1px 1px 5px 5px white;
 }
@@ -317,7 +312,6 @@ h3, h4{
 	color: gray;
 	padding: 0 40px;
 	font-size: 15px;
-
 }
 
 .experience h3{
@@ -328,7 +322,6 @@ h3, h4{
 	margin: 20px;
 	height: 100px;
 	padding-top: 20px;
-
 }
 
 .dropdown-content {
@@ -342,15 +335,14 @@ h3, h4{
 }
 
 .contact{
-	margin-top: 30px;
-	padding-top: 10px;
-	padding-bottom: 20px
+	margin-top: 180px;
 }
 
 .contact .p{
 	text-align: center;
 	color: gray;
-	margin-top: -40px
+	margin-top: -40px;
+	margin-bottom: -40px;
 }
 
 a{
@@ -367,8 +359,7 @@ a{
 a:hover{
 	width: inherit;
 	margin: 0px;
-	color: hsl(263, 55%, 52%)
-;
+	color: orangered;
 	border-radius: 0;
 	font-size: 25px;
 	font-weight: 400;
@@ -409,7 +400,7 @@ a:hover{
 	}
 
 	.head{
-		background: hsl(263, 55%, 52%);
+		background: orangered;
 		margin: -50px -70px;
 		padding: 10px 0;
 		color: white;
@@ -434,19 +425,18 @@ a:hover{
 	.profile p{
 		font-size: 40px;
 		margin-top: 50px;
-		color: hsl(263, 55%, 52%)
-;
+		color: orangered;
 	}
 
 	.profile-img{
-	background-image: url(/images/user.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 60%;
-    height: 600px;
-    border-radius: 50%;
-    margin-right: -40px;
-    margin-top: -30px;
+	    background-image: url(/images/user.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 850px;
+        height: 550px;
+        border-radius: 50%;
+        margin-right: -40px;
+        margin-top: -30px;
 	}
 
 	.about{
@@ -454,28 +444,31 @@ a:hover{
 		margin-top: 150px;
 	}
 
+	.img img{
+		width: 450px;
+		margin-top: -70px;
+	}
+
 	.others{
 		display: flex;
 		justify-content: space-evenly;
-		background: wheat;
+		background: orangered;
 		border-radius: 15px;
 	}
 
 	h2{
 		font-size: 40px;
 		margin-top: 70px;
-		color: hsl(263, 55%, 52%)
-;
+		color: orangered;
 	}	
 
 	.writeup{
-		background: wheat;
+		background: black;
 		overflow-x: hidden;
 		overflow-y: auto;
-		margin-bottom: 20px;
-		width: 33%;
-		height: 450px;
-		border-radius: 15px;
+		width: 39%;
+		height: 480px;
+		margin: 10px 0;
 	}
 
 	.writeup h3{
@@ -484,7 +477,12 @@ a:hover{
 
 	.writeup h4{
 		font-size: 30px;
-		color: white;
+		color: orangered;
+	}
+
+	.writeup p{
+		font-size: 23px;
+		line-height: 30px;
 	}
 
 	.img{
@@ -536,8 +534,7 @@ a:hover{
 
 	.sch-details h5{
 		font-size: 30px;
-		color: hsl(263, 55%, 52%)
-;
+		color: orangered;
 	}
 
 	.experience{
@@ -545,8 +542,7 @@ a:hover{
 	}
 
 	.experience h2{
-		color: hsl(263, 55%, 52%)
-;
+		color: orangered;
 	}
 
 	.experience .p{
@@ -554,16 +550,13 @@ a:hover{
 		margin-bottom: 40px;
 	}
 
-	.experience-others{
-	}
-
 	.first{
-	display: grid;
-	justify-content: space-evenly;
-	grid-template-rows: 180px 180px 180px 180px;
-	grid-template-columns: 160px 160px 160px 160px;
-	column-gap: 10px;
-	row-gap: 20px;
+	    display: grid;
+	    justify-content: space-evenly;
+	    grid-template-rows: 180px 180px 180px 180px;
+	    grid-template-columns: 160px 160px 160px 160px;
+	    column-gap: 10px;
+	    row-gap: 20px;
 	}
 
 	.first #three{
@@ -572,36 +565,24 @@ a:hover{
 		padding-top: 20px;
 		border-radius: 13px;
 		margin-top: 20px;
+		color: orangered;
 	}
 
 	.first #three:hover{
-		background: hsl(263, 55%, 52%);
-		color: white;
+		background: orangered;
+		color: black;
 		width: 170px;
 		font-size: 60px;
 		margin-left: -5px;
 	}
 
-
 	.first #three p{
 		font-size: 20px;
 	}
 
-	.second{
-		margin-top: -150px;
-		margin-bottom: 100px;
-		display: flex;
-		justify-content: space-around;
-	}
-
-	#skills div{
-		background: black;
-		width: 350px;
-		height: 80px;
-		margin-bottom: 20px;
-		font-size: 25px;
-		padding-top: 50px;
-		border-radius: 13px;
+	.fa-light{
+		letter-spacing: -5px;
+		margin-left: -10px;
 	}
 
 	#one{
@@ -645,7 +626,8 @@ a:hover{
         height: 170px;
         color: white;
         font-size: 16px;
-        background: hsl(263, 55%, 52%);
+        background: orangered
+;
         margin-left: 3px;
     }
 
@@ -720,7 +702,8 @@ a:hover{
 		font-size: 15px;
 		margin-top: 50px;
 		margin-bottom: -100px;
-		color: hsl(263, 55%, 52%)
+		color: orangered
+
 ;
 	}
 
