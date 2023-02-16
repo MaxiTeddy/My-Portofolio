@@ -55,7 +55,7 @@ span{
     background-color: orangered;
     background-blend-mode: luminosity;
     width: inherit;
-    height: 346px;
+    height: 303px;
     border-radius: 0 0 13px 13px;
 }
 
@@ -66,7 +66,7 @@ span{
 .img img{
 	border-radius: 50%;
 	border: 5px solid orangered;
-	width: 300px;
+	width: 250px;
 }
 
 .about{
@@ -82,7 +82,7 @@ span{
 
 h3, h4{
 	font-size: 25px;
-	line-height: 10px;
+	margin-bottom: -10px;
 	color: orangered;
 }
 
@@ -96,7 +96,7 @@ h3, h4{
 .button{
 	width: 100px;
 	height: 0px;
-	margin: 10px 0px 20px 70px;
+	margin: 10px 0px 20px 45px;
 	border-radius: 50px;
 	background: orangered;
 	font-weight: 500;
@@ -113,7 +113,7 @@ h3, h4{
 	border: 3px solid orangered;
 	width: 100px;
 	height: 0px;
-	margin: 10px 0px 20px 170px;
+	margin: 10px 0px 20px 45px;
 	border-radius: 50px;
 	font-weight: 900;
 }
@@ -133,17 +133,19 @@ h3, h4{
 .sch-details h3{
 	color: orangered;
 	line-height: 27px;
+	margin-top: 10px;
+	font-size: 20px;
 }
 
 .sch-details p{
 	color: gray;
-	margin-top: -10px;
+	margin-top: 30px;
 	margin-bottom: 30px
 }
 
 .sch-details h5{
 	color: hsl(208, 25%, 38%);
-	margin-top: -20px;
+	margin-top: 20px;
 }
 
 .sch-1{
@@ -174,13 +176,17 @@ h3, h4{
 .project #two{
 	position: relative;
 	background-color: orangered;
-	width: 300px;
+	width: 250px;
 	margin-left: 20px;
-	margin-bottom: 130px
+	margin-bottom: 160px
 }
 
 .project-others{
 	position: relative;
+}
+
+.correct{
+	margin-left: 05px
 }
 
 .dropdown {
@@ -245,8 +251,8 @@ h3, h4{
 
 .middle{
   position: absolute;
-  width: 300px;
-  height: 100px;
+  width: 250px;
+  height: 120px;
   text-align: center;
   cursor: pointer;
   background: black;
@@ -274,14 +280,12 @@ h3, h4{
 	font-size: 15px;
 	color: white;
 	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 30px
 }
 
-#drop-eight #describe{
-	padding-top: 10px;
-}
-
-#drop-nine #describe{
-	padding-top: 10px;
+.three #describe, .nine #describe{
+	margin-bottom: 10px;
 }
 
 .close{
@@ -303,26 +307,30 @@ h3, h4{
 .experience .p{
 	color: gray;
 	padding: 0 40px;
-	font-size: 15px;
+	font-size: 13px;
+}
+
+.first i{
+	font-size: 50px;
+	letter-spacing: -5px;
+	margin-left: -05px;
+	margin-top: 10px
 }
 
 .first{
   display: grid;
-  grid-template-rows: 50px 50px;
+  grid-template-rows: 120px 120px;
   grid-template-columns: 120px 120px;
-  gap: 30px 50px;
+  gap: 30px 30px;
   margin: 0 25px;
   margin-top: 30px;
+  margin-left: 16px;
 }
 
 .first #three{
 	background: black;
 	color: orangered;
 	padding: 0 10px
-}
-
-.first i{
-	display: none;
 }
 
 .experience h3{
