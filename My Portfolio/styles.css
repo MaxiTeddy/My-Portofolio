@@ -311,10 +311,14 @@ h3, h4{
 }
 
 .first i{
-	font-size: 50px;
-	letter-spacing: -5px;
+	font-size: 40px;
+	letter-spacing: px;
 	margin-left: -05px;
-	margin-top: 10px
+	margin-bottom: -20px
+}
+
+.fa-light, .fa-brands, .fa-regular{
+	margin-top: 15px
 }
 
 .first{
@@ -330,7 +334,8 @@ h3, h4{
 .first #three{
 	background: black;
 	color: orangered;
-	padding: 0 10px
+	padding: 0 10px;
+	border-radius: 13px;
 }
 
 .experience h3{
